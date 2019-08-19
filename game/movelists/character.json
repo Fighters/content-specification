@@ -1,12 +1,13 @@
 {
     "names": [
         {
-            "region": "world",
-            "name": "Balrog"
+            "region": "default",
+            "roman": "Balrog"
         },
         {
             "region": "japan",
-            "name": "M Bison"
+            "roman": "M Bison",
+            "original": "M・バイソン"
         }
     ],
     "moves": {

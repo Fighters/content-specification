@@ -2,7 +2,7 @@
     "names": {
         "regions": [
             { 
-                "region": "world",
+                "region": "default",
                 "roman": "Street Fighter Alpha"
             },
             {
@@ -21,12 +21,13 @@
             "regions": [
                 {
                     "region": "Japan",
-                    "name": "ストリートファイターZERO",
+                    "roman": "Street Fighter Zero",
+                    "original": "ストリートファイターZERO",
                     "releaseDate": "05-06-1995"
                 },
                 {
                     "region": "United States",
-                    "name": "Street Fighter Alpha: Warriors' Dreams",
+                    "roman": "Street Fighter Alpha: Warriors' Dreams",
                     "releaseDate": "27-06-1995"
                 }
             ]
@@ -43,11 +44,22 @@
         }
     ],
     "characters": [
-        { "name": "Chun-Li" },
-        { "name": "Ken" },
-        { "name": "Ryu" },
-        { "name": "Akuma" },
-        { "name": "Exclusive Character Example", "platforms": ["Sega Saturn", "Sony PlayStation"] },
-        { "name": "Hakushon", "platforms": ["Wii"], "region": "Japan" }
+        { 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "Balrog"
+                },
+                {
+                    "region": "japan",
+                    "roman": "M.Bison",
+                    "original": "M・バイソン"
+                }
+            ]
+        { "roman": "Ken" },
+        { "roman": "Ryu" },
+        { "roman": "Akuma" },
+        { "roman": "Exclusive Character Example", "platforms": ["Sega Saturn", "Sony PlayStation"] },
+        { "roman": "Hakushon", "platforms": ["Wii"], "region": "Japan" },
     ]
 }

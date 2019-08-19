@@ -2,7 +2,7 @@
     "names": {
         "regions": [
             { 
-                "region": "world",
+                "region": "default",
                 "roman": "Balrog"
             },
             {
@@ -27,7 +27,7 @@
         },
         {
             "game": "Street Fighter II: Champion Edition",
-            "name": "Mr Karate", // When the character has a different name
+            "roman": "Mr Karate", // When the character has a different name
             "playable": true
         },
         {
