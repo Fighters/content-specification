@@ -1,0 +1,53 @@
+{
+    "names": {
+        "regions": [
+            { 
+                "region": "world",
+                "roman": "Street Fighter Alpha"
+            },
+            {
+                "region": "japan",
+                "roman": "Street Fighter Zero",
+                "original": "ストリートファイターZERO"
+            }
+        ],
+        "also-known-as": [
+            "sfa", "sfz", "sfa1", "sfz1", "Alpha 1", "Zero 1"
+        ]
+    },
+    "platforms": [
+        {
+            "platform": "Arcade",
+            "regions": [
+                {
+                    "region": "Japan",
+                    "name": "ストリートファイターZERO",
+                    "releaseDate": "05-06-1995"
+                },
+                {
+                    "region": "United States",
+                    "name": "Street Fighter Alpha: Warriors' Dreams",
+                    "releaseDate": "27-06-1995"
+                }
+            ]
+        },
+        {
+            "platform": "Sega Saturn",
+            "regions": [
+                {
+                    "region": "Japan",
+                    "name": "ストリートファイターZERO",
+                    "releaseDate": "26-01-1996"
+                }
+            ]
+        }
+    ],
+    "characters": [
+        { "name": "Chun-Li" },
+        { "name": "Ken" },
+        { "name": "Ryu" },
+        { "name": "Akuma" },
+        { "name": "Exclusive Character Example", "platforms": ["Sega Saturn", "Sony PlayStation"] },
+        { "name": "Hakushon", "platforms": ["Wii"], "region": "Japan" }
+    ]
+}
