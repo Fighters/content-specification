@@ -1,0 +1,45 @@
+{
+    "names": {
+        "regions": [
+            { 
+                "region": "world",
+                "roman": "Balrog"
+            },
+            {
+                "region": "japan",
+                "roman": "M.Bison",
+                "original": "M・バイソン"
+            }
+        ],
+        "also-known-as": [
+            "borog", "boxer", "tyson"
+        ]
+    },
+    "games": [
+        { 
+            "game": "Street Fighter II",
+            "playable": false,
+            "boss": true,
+            "platforms": [ // Only if there's platforms where the character is not in
+                "Arcade" // has to include all of them except Master System
+            ],
+            "stage": "Las Vegas" // use when a character has a stage
+        },
+        {
+            "game": "Street Fighter II: Champion Edition",
+            "name": "Mr Karate", // When the character has a different name
+            "playable": true
+        },
+        {
+            "game": "Capcom Fighting Jam",
+            "playable": false,
+            "boss": false,
+            "cameo": true,
+            "stage": "stage name here" // when cameo, the stage shows which one the character appears
+        }
+    ],
+    "profile": [
+        { "{styleOfCombat}": "{Boxing}" },
+        { "{height}": 190 }
+    ]
+}

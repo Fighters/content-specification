@@ -1,6 +1,6 @@
 ---
 title: Guide name
-language: en_US
+language: english
 author: Author Name
 ---
 

@@ -1,0 +1,64 @@
+{
+    "names": [
+        {
+            "region": "world",
+            "name": "Balrog"
+        },
+        {
+            "region": "japan",
+            "name": "M Bison"
+        }
+    ],
+    "moves": {
+        "{normal-moves}": [
+            {
+                "name": "boriga",
+                "input": ":qcf: + [A]"
+            },
+            {
+                "name": "boriga 2",
+                "input": ":qcf: + [A]",
+                "after": "boriga"
+            },
+            {
+                "name": "boriga 3",
+                "input": ":hcb: + [C]",
+                "after-hit": "boriga 2"
+            },
+            {
+                "name": "frente A",
+                "move": ":f: + [A]",
+                "cancellable-on": "first-hit",
+                "cancellable-into": [
+                    "roris",
+                    "bori-bori",
+                    "dm",
+                    "sdm"
+                ]
+            },
+            {
+                "name": "dm que bate bagarai",
+                "move": ":qcb: :hcf: + [A]/[C]",
+                "cancellable-on": "{custom-1}",
+                "cancellable-into": [
+                    "especial fodao do jogo que esqueci o nome"
+                ]
+            }
+        ],
+        "V-trigger": [
+        
+        ],
+        
+        "Fatalities": [
+        
+        ]
+    },
+    "custom_strings": {
+        "english": [
+            { "custom-1": "on the last punch" }
+        ],
+        "portuguese": [
+            { "custom-1": "no ultimo soco" }
+        ]
+    }
+}
